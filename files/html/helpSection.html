@@ -1,0 +1,45 @@
+<section id="help-section" class="help-section section">
+  <div class="section__container _container">
+    <div class="section__row _row">
+      <div class="section__decoration decoration">
+        <div class="decoration__box">
+          <div class="section__image">
+            <img src="@img/ask-proffesionals-1.png" alt="man-in-a-suit" />
+          </div>
+        </div>
+      </div>
+      <div class="section__content">
+        <header class="section__header">
+          <h4 class="section__title">Допомога</h4>
+          <h1 class="section__description">
+            Запитуйте у <span>професіоналів</span>
+          </h1>
+        </header>
+        @@include('./pageForm.html',{})
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-back hidden">
+    <div class="form-submit-modal modal">
+      <div class="modal__body">
+        <div class="modal__close">
+          <img
+            id="close-modal"
+            src="@img/icons/icon-close.svg"
+            alt="icon-close"
+          />
+        </div>
+        <div class="modal__icon">
+          <img src="@img/icons/done.svg" alt="done-icon" />
+        </div>
+        <div class="modal__main-message">
+          Ваше повідомлення відправлено успішно!
+        </div>
+        <div class="modal__message">
+          Дякуємо! Ваше повідомлення відправлено успішно. Очікуйте на відповідь!
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

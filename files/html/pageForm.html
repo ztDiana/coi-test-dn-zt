@@ -1,0 +1,153 @@
+<div class="form">
+  <form id="form" class="form__body" action="#">
+    <div class="form__item input">
+      <label class="form__label" for="formName">Ім'я*</label>
+      <input
+        id="formName"
+        class="form__input _req _name"
+        name="name"
+        type="text"
+      />
+    </div>
+    <div class="placeholder">
+      <img src="@img/icons/attention-icon.svg" alt="attantion" /><span
+        >Введіть мінімум 3 символи</span
+      >
+    </div>
+    <div class="form__item input">
+      <label class="form__label" for="formTel">Телефон</label>
+      <input
+        id="formTel"
+        class="form__input _req _tel"
+        name="tel"
+        type="tel"
+        placeholder="+38 (000)_ _ _-_ _-__"
+      />
+    </div>
+    <div class="form__item input">
+      <label class="form__label" for="formEmail">Email*</label>
+      <input
+        id="formEmail"
+        class="form__input _req _email"
+        name="email"
+        type="text"
+        placeholder="biznes@gmail.com"
+      />
+    </div>
+    <div class="form__item">
+      <div class="form__select form-select">
+        <div class="form-select__header">
+          <div class="form-select__current">Оберіть пункт</div>
+          <div class="form-select__icon">
+            <img
+              class="static"
+              src="@img/icons/arrow-down.svg"
+              alt="arrow-down"
+            />
+            <img class="active" src="@img/icons/arrow-up.svg" alt="arrow-up" />
+          </div>
+        </div>
+
+        <div class="form-select__body">
+          <div class="form-select__item">Пункт 1</div>
+          <div class="form-select__item">Пункт 2</div>
+          <div class="form-select__item">Пункт 3</div>
+          <div class="form-select__item">Пункт 4</div>
+        </div>
+      </div>
+    </div>
+    <div class="form__item">
+      <div class="checkbox">
+        <div class="checkbox__item">
+          <input
+            id="checkbox1"
+            checked
+            type="checkbox"
+            value="checkbox-1"
+            name="checkbox"
+            class="checkbox__input"
+          />
+          <label for="checkbox1" class="checkbox__label"
+            ><span>Checkbox 1</span></label
+          >
+        </div>
+        <div class="checkbox__item item-check">
+          <input
+            id="checkbox2"
+            type="checkbox"
+            value="checkbox-2"
+            name="checkbox"
+            class="checkbox__input"
+          />
+          <label for="checkbox2" class="checkbox__label"
+            ><span>Checkbox 2</span></label
+          >
+        </div>
+        <div class="checkbox__item">
+          <input
+            id="checkbox3"
+            type="checkbox"
+            value="checkbox-3"
+            name="checkbox"
+            class="checkbox__input"
+          />
+          <label for="checkbox3" class="checkbox__label"
+            ><span>Checkbox 3</span>
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div class="form__item">
+      <div class="options">
+        <div class="options__item">
+          <input
+            id="formRadiobutton1"
+            type="radio"
+            value="radiobutton-1"
+            name="radiobutton"
+            class="options__input"
+          />
+          <label for="formRadiobutton1" class="options__label"
+            ><span>Radiobutton 1</span></label
+          >
+        </div>
+        <div class="options__item">
+          <input
+            id="formRadiobutton2"
+            type="radio"
+            value="radiobutton-2"
+            name="radiobutton"
+            class="options__input"
+          />
+          <label for="formRadiobutton2" class="options__label"
+            ><span>Radiobutton 2</span>
+          </label>
+        </div>
+        <div class="options__item">
+          <input
+            id="formRadiobutton3"
+            type="radio"
+            value="radiobutton-3"
+            name="radiobutton"
+            class="options__input"
+          />
+          <label for="formRadiobutton3" class="options__label"
+            ><span>Radiobutton 3</span></label
+          >
+        </div>
+      </div>
+    </div>
+    <div class="form__item">
+      <textarea
+        name="message"
+        id="formMessage"
+        class="form__message"
+        placeholder="Коментар"
+      ></textarea>
+    </div>
+    <div class="button-area">
+      <button id="formButton" class="page-button">Відправити дані</button>
+    </div>
+  </form>
+</div>
